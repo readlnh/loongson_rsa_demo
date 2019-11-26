@@ -259,7 +259,7 @@ fn main() {
         println!("密文为: {}", encrypt());
     }
     if let Some(_matches) = matches.subcommand_matches("decrypt") {
-        println!("明文为 {}", decrypt());
+        println!("明文为: {}", decrypt());
     }
 
 }
